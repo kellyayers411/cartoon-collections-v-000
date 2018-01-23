@@ -18,7 +18,7 @@ end
 def find_the_cheese(strings)
   strings.each do |item|
     if (item == "cheddar" || item == "gouda" || item == "camembert")
-      return item
+      puts item
     else
       return nil
     end

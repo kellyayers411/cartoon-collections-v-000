@@ -10,30 +10,9 @@ def long_planeteer_calls(array)
   array.any? {|call| call.length > 4}
 end
 
-#def find_the_cheese(array)
- # cheese = %w(cheddar gouda camembert)
-  #array.find do |i|
-   # cheese.include?(i)
-  #end
-
-def find_the_cheese(strings)
-  puts strings
-  strings.each do |item|
-    puts "#{item}"
-    if strings.include?("cheddar")
-      return item
-    elsif strings.include?("gouda")
-      return item
-    elsif strings.include?("camebert")
-      return item
-    else
-      return nil
-    end
-    
-  end 
-  
+def find_the_cheese(array)
+  cheese = %w(cheddar gouda camembert)
+  array.find do |i|
+    cheese.include?(i)
 end
-
-
-
 

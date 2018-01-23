@@ -15,14 +15,19 @@ end
   #array.find do |i|
    # cheese.include?(i)
   #end
+
 def find_the_cheese(strings)
-  strings.each do {|item|
+  
+  strings.each do |item|
+    
     if (item == "cheddar" || item == "gouda" || item == "camembert")
-      puts item
+      return item
     else
       return nil
     end
-  end}
+    
+  end 
+  
 end
 
 

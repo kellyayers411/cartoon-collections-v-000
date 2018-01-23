@@ -23,7 +23,7 @@ def find_the_cheese(strings)
     if (item = "cheddar" || item = "gouda" || item = "camembert")
       item
     else
-      return nil
+      nil
     end
     
   end 

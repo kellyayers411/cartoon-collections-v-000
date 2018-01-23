@@ -17,9 +17,9 @@ end
   #end
 
 def find_the_cheese(strings)
-  
+  puts strings
   strings.each do |item|
-    puts puts "#{item}"
+    puts "#{item}"
     if (item == "cheddar" || item == "gouda" || item == "camembert")
       return item
     else

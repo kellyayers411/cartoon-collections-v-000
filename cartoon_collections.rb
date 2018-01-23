@@ -21,9 +21,13 @@ def find_the_cheese(strings)
   strings.each do |item|
     puts "#{item}"
     if strings.include?("cheddar")
-      item
-    elsif 
-      nil
+      return item
+    elsif strings.include?("gouda")
+      return item
+    elsif strings.include?("camebert")
+      return item
+    else
+      return nil
     end
     
   end 
